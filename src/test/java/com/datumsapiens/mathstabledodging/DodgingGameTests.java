@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-class MathsTableDodgingApplicationTests {
+class DodgingGameTests {
 
 	@Test
 	void contextLoads() {
