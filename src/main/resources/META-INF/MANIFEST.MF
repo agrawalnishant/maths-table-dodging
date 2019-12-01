@@ -1,0 +1,2 @@
+Manifest-Version: 1.FUN
+Main-Class: com.datumsapiens.mathstabledodging.MathsTableDodgingApplication;
