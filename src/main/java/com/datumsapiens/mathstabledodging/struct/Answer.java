@@ -29,6 +29,6 @@ public class Answer {
 
     @Override
     public String toString() {
-        return  " | " + (actualAnswer != null ? actualAnswer : "??") + "     Expected: " + expectedAnswer + "  , Time Taken:  " + timeTaken + " seconds.";
+        return " | " + (actualAnswer != null ? actualAnswer : "??") + "     Expected: " + expectedAnswer + "  , Time Taken:  " + timeTaken + " seconds.";
     }
 }

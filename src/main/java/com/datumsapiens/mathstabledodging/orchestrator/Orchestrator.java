@@ -1,7 +1,6 @@
 package com.datumsapiens.mathstabledodging.orchestrator;
 
-import com.datumsapiens.mathstabledodging.struct.ResultOfDodgingGame;
-import com.datumsapiens.mathstabledodging.struct.StartParams;
+import com.datumsapiens.mathstabledodging.struct.*;
 
 public class Orchestrator {
 
@@ -10,6 +9,8 @@ public class Orchestrator {
         StartParams startParams = new Starter().receiveStartParams();
         ResultOfDodgingGame resultOfDodgingGame = new GameRunner(startParams).start();
         resultOfDodgingGame.show();
-        resultOfDodgingGame.showAnalysis();
+        AnalysedData analysedData = new ResultAnalyser(resultOfDodgingGame).analyze();
+        AnalysisPrinter analysisPrinter = new AnalysisPrinter(analysedData);
+        analysisPrinter.showAnalysis();
     }
 }
