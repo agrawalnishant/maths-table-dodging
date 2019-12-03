@@ -7,9 +7,6 @@ import java.util.HashMap;
 
 @Value
 public class StartParams {
-    public enum QUESTION_KEYS {TABLE_TO, PLAYER_NAME, NUM_QUESTIONS}
-
-    ;
     public static HashMap<QUESTION_KEYS, String> QUESTIONS = new HashMap<>();
 
     static {
@@ -22,7 +19,6 @@ public class StartParams {
     private Integer tablesTo;
     private String playerName;
     private Integer numQuestions;
-
     public StartParams(
             final Integer tablesTo,
             final String playerName,
@@ -37,4 +33,6 @@ public class StartParams {
     public String toString() {
         return "Will now ask  " + numQuestions + " dodging questions for '" + playerName + "' upto table of " + tablesTo + " .";
     }
+
+    public enum QUESTION_KEYS {TABLE_TO, PLAYER_NAME, NUM_QUESTIONS}
 }

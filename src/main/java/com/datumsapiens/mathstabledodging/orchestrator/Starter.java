@@ -45,6 +45,7 @@ public class Starter {
     }
 
     private void prequel() {
+        System.out.println("REM: Press '/' key to skip a question.");
         System.out.print("Starting Challenge in seconds...");
 
         try {
@@ -55,6 +56,6 @@ public class Starter {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        System.out.println("");
+        System.out.println();
     }
 }
