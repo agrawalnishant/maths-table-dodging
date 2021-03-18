@@ -3,7 +3,7 @@
 3. Is this a valid comment?
     * This is a /* nested */ comment. */
 4. Write a program using "while" loop to get 5 numbers from user, and separately print sum of Odd and Even numbers from those.
-5. Write a program Using for loop, get user's input (as floating point number) for radii of 2 circles, and print the difference of their circumference. 
+5. Write a program to get user's input (as floating point number) for radii of 2 circles, and print the difference of their circumference. 
    Assume value of PI to be 3.14159, and define it as a floating point const before using it.
 6. Write a program to input 3 INteger numbers, and print them in sorted order.
 7. Give 1 example each of String literal, Char literal, integer literal, and double literal.
