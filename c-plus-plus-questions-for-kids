@@ -1,3 +1,5 @@
+Test #1
+
 1. What preprocessor directive is used to enable Input / Output in a C++ program?
 2. Specify benefits of using namespaces.
 3. Is this a valid comment?
@@ -5,7 +7,7 @@
 4. Write a program using "while" loop to get 5 numbers from user, and separately print sum of Odd and Even numbers from those.
 5. Write a program to get user's input (as floating point number) for radii of 2 circles, and print the difference of their circumference. 
    Assume value of PI to be 3.14159, and define it as a floating point const before using it.
-6. Write a program to input 3 INteger numbers, and print them in sorted order.
+6. Write a program to input 3 Integer numbers, and print them in sorted order.
 7. Give 1 example each of String literal, Char literal, integer literal, and double literal.
 8. Write the name of Arithimetic Type that you would like to use for following:
   true, 'c', -10, 44444, 3.14159
@@ -14,13 +16,22 @@
 11. What are keywords in C++. Give 3 examples.
 12. Which of these ar valid variable names: 
     2Good, _name, FIRST_NAME, $Money
-13. Below are Percentage marks of 2 students in 2 subjects. Print their division for total marks based on given rules:
-   Marks | Maths | History
-   Alpha | 57.8  | 90.0
-   Beta  | 85.5  | 69
+13. Below are Percentage marks of a students in 2 subjects. Print its division for total marks based on given rules:
+   Name | Marks in Maths | Marks in History
+   Sia | 57.8  | 90.0
+  
  
  Rules:
    1st Division, if total % marks > 70%. 
    2nd Division, if total % marks between 55% and 70%.
    3rd Division, if total % marks < 55%
    
+Test # 2
+1. Given 5 kids' preference for Saturday or Sunday as their movie day, print how many of them prefer Saturday and how many prefer Sunday, using switch statement.
+   Assume the 5 favourites.
+   
+2. Print how many multiples of 3 between 5 and 50, using "for" loop, and "if" condition.
+
+3. Print perimeter of rectangle whose sides are 5 and 8 respectively.
+
+4. Print sum of first 8 natural numbers, using while loop.
